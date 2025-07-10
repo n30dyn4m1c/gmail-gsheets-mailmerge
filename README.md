@@ -4,11 +4,17 @@ Scripts and steps for mail merge using Gmail and Google Sheets
 ## Setup:
 
 Step 1: Upload Folders with PDFs of Offer Letters and Invoices to Google Drive
+
 Step 2: Create Google Sheet and name it GetFileID.
+
 Step 3: Go to GetFileID Google Sheet. Remove all data from sheets except for columns with formulae.
+
 Step 4: While Sheet 1 is active, go to Extensions->Apps Script
+
 Step 5: Copy & paste getfileid.js code.
+
 Step 6: Replace Google Drive folder ID in the code.
+
 Step 7: Click Run Code to run the function. This will save the File Names and File IDs in Sheet 1
 
 Step 8: Paste the File Name and File ID data in the next tab Formatted Data, then you should see key parts separated in the columns with formulae.
@@ -59,7 +65,7 @@ Step 16: Prepare a Draft Email with appropriate subject and content
 Subject:
 - UPNG Offer Letter and Invoice for 2025
 
-- Content:
+Content:
 Dear {{FirstName}} {{LastName}},
 
 We are delighted to inform you that you have been accepted to study at the University of Papua New Guinea in 2025.
