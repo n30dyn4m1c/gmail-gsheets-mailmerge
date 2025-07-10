@@ -1,7 +1,7 @@
-## Gmail and Google Sheets Mail Merge using AppScript
+# Gmail and Google Sheets Mail Merge using AppScript
 Scripts and steps for mail merge using Gmail and Google Sheets 
 
-# Setup:
+## Setup:
 
 Step 1: Upload Folders with PDFs of Offer Letters and Invoices to Google Drive
 Step 2: Create Google Sheet and name it GetFileID.
